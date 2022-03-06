@@ -75,3 +75,52 @@ body
     align-items: center;
 }
 /* Styling of navigation bar ends here */
+
+/* Styling of main body starts here */
+
+.main_body
+{
+    height: calc(100vh - 70px);
+    display: flex;
+}
+
+.sidebar
+{
+    height: 100%;
+    width: 200px;
+    background-color: white;
+}
+
+.sidebar_categories
+{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding: 5px 20px;
+    margin: 1px;
+    border: 0;
+
+}
+
+.sidebar_categories span
+{
+    margin-left: 20px;
+}
+
+.sidebar_categories:hover
+{
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+hr
+{
+    background-color: #e5e5e5;
+    height: 1px;
+    border: none;
+}
+
+
+
+/* Styling of main body ends here */
